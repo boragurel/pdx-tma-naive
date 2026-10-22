@@ -4,7 +4,7 @@ Catalogue of all wiki pages in this project. Read this first on any query.
 
 ## Current position
 
-33 IHC markers ingested into Data/raw/ and summarised into a single model-level dataset
+34 markers (33 IHC + STEAP1 IF, two runs) ingested into Data/raw/ and summarised into a single model-level dataset
 (`Data/derived/PDX_TMA_model_summary.csv`): 44 rows (22 models x 2 states), 96 IHC
 measurements + 17 genomic columns. Marker compartment assignments and distribution
 characterisation complete. Ready for cross-marker analysis and thresholding.
@@ -27,6 +27,7 @@ characterisation complete. Ready for cross-marker analysis and thresholding.
 | [[rb1]] | entities/rb1.md — RB1 IHC marker |
 | [[sox2]] | entities/sox2.md — SOX2 IHC marker |
 | [[synaptophysin]] | entities/synaptophysin.md — Synaptophysin IHC marker |
+| [[steap1]] | entities/steap1.md — STEAP1 IF marker, whole-cell and membrane runs; slide on RDS only |
 | [[model-summary-dataset]] | entities/model-summary-dataset.md — Pre-computed summary dataset: 44 model-states, all IHC + genomic columns |
 | [[marker-distributions]] | entities/marker-distributions.md — Distribution shape analysis per marker (bimodality, skewness, thresholding guidance) |
 
@@ -47,7 +48,11 @@ characterisation complete. Ready for cross-marker analysis and thresholding.
 
 ## Imports
 
-*None yet — the 33 markers in Data/raw/ were ingested in Aug 2026 before this page type existed; see [[stain-inventory]].*
+| Page | Summary |
+|------|---------|
+| [[steap1-ingest-2026-10-22]] | imports/steap1-ingest-2026-10-22.md — Two STEAP1 IF exports copied from the STEAP1 study folder, QC, hashes, slide location |
+
+The 33 markers ingested in Aug 2026 predate this page type; see [[stain-inventory]].
 
 ## Figures
 

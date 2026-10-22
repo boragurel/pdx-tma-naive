@@ -1,12 +1,12 @@
 # Stain Inventory
 
 Status: active
-Last updated: 2026-08-05
+Last updated: 2026-10-22
 
 Master list of all IHC markers analysed on the [[pdx-tma]]. Updated by the
 [[tma-halo-ingest]] workflow as new exports are processed.
 
-## Ingested markers (33 stains)
+## Ingested markers (34 stains, 35 datasets)
 
 | Marker | Data path | Rows | Ingested | Notes |
 |--------|-----------|------|----------|-------|
@@ -39,6 +39,8 @@ Master list of all IHC markers analysed on the [[pdx-tma]]. Updated by the
 | RPA | `Data/raw/RPA/` | 96 | 2026-08-05 | |
 | SNAIL | `Data/raw/SNAIL/` | 93 | 2026-08-05 | |
 | SOX2 | `Data/raw/SOX2/` | 95 | 2026-08-05 | Re-exported, clean |
+| STEAP1 | `Data/raw/STEAP1/` | 98 | 2026-10-22 | IF, whole-cell run; see [[steap1]] |
+| STEAP1 (membrane) | `Data/raw/STEAP1_membrane/` | 95 | 2026-10-22 | IF, membrane run of the same scan |
 | STING | `Data/raw/STING/` | 91 | 2026-08-05 | |
 | STING_E9 | `Data/raw/STING_E9/` | 93 | 2026-08-05 | |
 | Synaptophysin | `Data/raw/Synaptophysin/` | 97 | 2026-08-05 | Re-exported, clean |

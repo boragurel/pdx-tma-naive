@@ -68,3 +68,8 @@ Canonical .gitignore adopted; clauder_logs/ moved to Scripts/clauder_logs/.
 ## [2026-10-22] create | methods/reading-files (shared copy)
 ## [2026-10-22] create | workflows/source-ingest (shared copy)
 ## [2026-10-22] setup | wiki/imports/ and wiki/figures/ folders created
+
+## [2026-10-22] move | 21 TMA slide scans moved from YAP in PCa/Images/YAP-Lamin in PDX TMA/ to Images/; Periostin slide copied from Periostin study. 34 slides local
+## [2026-10-22] ingest | STEAP1 IF, whole-cell and membrane runs, from E:/HALO/Studies/STEAP1/Data/ into Data/raw/STEAP1/ and STEAP1_membrane/
+## [2026-10-22] create | entities/steap1, imports/steap1-ingest-2026-10-22
+## [2026-10-22] update | stain-inventory (34 stains), index
