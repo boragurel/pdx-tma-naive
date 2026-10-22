@@ -35,12 +35,23 @@ characterisation complete. Ready for cross-marker analysis and thresholding.
 | Page | Summary |
 |------|---------|
 | [[halo-export-format]] | methods/halo-export-format.md — HALO TMA export structure: summary CSV, object data, Spot Id format, file naming convention |
+| [[r-project-setup]] | methods/r-project-setup.md — One .Rproj per study, workspace never saved (shared copy) |
+| [[reading-files]] | methods/reading-files.md — Python tool file-reading mechanics (shared copy) |
 
 ## Workflows
 
 | Page | Summary |
 |------|---------|
 | [[tma-halo-ingest]] | workflows/tma-halo-ingest.md — Autonomous procedure for ingesting a new HALO TMA export: marker identification, QC, renaming, filing, wiki updates. Batch-capable |
+| [[source-ingest]] | workflows/source-ingest.md — Procedure for adding a paper or document (shared copy) |
+
+## Imports
+
+*None yet — the 33 markers in Data/raw/ were ingested in Aug 2026 before this page type existed; see [[stain-inventory]].*
+
+## Figures
+
+*None yet.*
 
 ## Experiments
 
@@ -51,6 +62,9 @@ characterisation complete. Ready for cross-marker analysis and thresholding.
 | Page | Summary |
 |------|---------|
 | [[marker-compartment-assignments]] | decisions/marker-compartment-assignments.md — Biologically motivated compartment selection per marker for summary dataset |
+| [[git-setup]] | decisions/git-setup.md — Git repository conventions (shared copy); Local: repo path, remote, first commit |
+| [[data-intake-convention]] | decisions/data-intake-convention.md — Intake via Data/incoming (shared copy); Local: autonomous HALO ingest override, expected arrivals, pending imports pages |
+| [[derived-data-convention]] | decisions/derived-data-convention.md — Derived data rules and provenance (shared copy); Local: prefix pdxtma, non-conforming legacy files |
 
 ## Scripts
 

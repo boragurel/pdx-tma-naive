@@ -54,3 +54,17 @@ Reference Spot Id files saved to Data/raw/.reference/.
 - 2026-09-01: Created `entities/model-summary-dataset.md` — summary dataset documentation
 - 2026-09-01: Created `entities/marker-distributions.md` — distribution characterisation and thresholding guidance
 - 2026-09-01: Updated `index.md` — added new entities, decisions, updated current position
+
+## [2026-10-22] setup | Git initialised, pushed to boragurel/pdx-tma-naive (private)
+Canonical .gitignore adopted; clauder_logs/ moved to Scripts/clauder_logs/.
+
+## [2026-10-22] create | decisions/git-setup (shared copy)
+
+## [2026-10-22] update | CLAUDE.md rebuilt from Studies/wiki/templates/CLAUDE.md (shared half copied 2026-10-22)
+
+## [2026-10-22] create | decisions/data-intake-convention (shared copy)
+## [2026-10-22] create | decisions/derived-data-convention (shared copy)
+## [2026-10-22] create | methods/r-project-setup (shared copy)
+## [2026-10-22] create | methods/reading-files (shared copy)
+## [2026-10-22] create | workflows/source-ingest (shared copy)
+## [2026-10-22] setup | wiki/imports/ and wiki/figures/ folders created
