@@ -1,0 +1,12 @@
+/Data/
+/Images/
+/Sources/
+.RData
+.Rhistory
+.Ruserdata
+.Rproj.user/
+__pycache__/
+*.o
+wiki/.obsidian/workspace*.json
+/Scripts/clauder_logs/*
+!/Scripts/clauder_logs/placeholder.R
