@@ -73,3 +73,26 @@ Canonical .gitignore adopted; clauder_logs/ moved to Scripts/clauder_logs/.
 ## [2026-10-22] ingest | STEAP1 IF, whole-cell and membrane runs, from E:/HALO/Studies/STEAP1/Data/ into Data/raw/STEAP1/ and STEAP1_membrane/
 ## [2026-10-22] create | entities/steap1, imports/steap1-ingest-2026-10-22
 ## [2026-10-22] update | stain-inventory (34 stains), index
+## [2026-10-22] import | 5 TMA slides copied from RDS (ASS1, CBP, ERG, LC3AB, SLFN11) into Images/; 39 slides local
+## [2026-10-22] create | entities/ass1, cbp, erg, lc3ab, slfn11; imports/tma-slides-2026-10-22
+## [2026-10-22] update | stain-inventory (unanalysed-slides table), index current position
+## [2026-10-22] import | ASCL4 and p300 TMA slides copied from RDS into Images/ (unannounced scans, Bora's decision); 41 slides local
+## [2026-10-22] create | entities/ascl4, p300; update imports/tma-slides-2026-10-22, stain-inventory, index
+## [2026-10-22] fix | 21 YAP-era slides copied back to YAP in PCa/Images/YAP-Lamin in PDX TMA/ (HALO references those paths); both copies kept, noted in imports/tma-slides-2026-10-22
+## [2026-10-28] ingest | HALO exports ASS1, ASCL4 (summary + objects), LC3AB (objects only) into Data/raw/
+## [2026-10-28] hold | HALO exports CBP, ERG, SLFN11, p300 left in Data/incoming/ (summary/object marker mismatch)
+## [2026-10-28] create | imports/halo-ingest-2026-10-28; update entities ass1, ascl4, lc3ab, cbp, erg, p300, slfn11, stain-inventory, index
+## [2026-10-28] verify | ASS1, ASCL4 summary vs object data reconciled per core; recorded in imports/halo-ingest-2026-10-28
+## [2026-10-28] withdraw | 28 Oct HALO exports (7 markers) removed from Data/raw/ and incoming to Data/incoming/_to_delete/ for re-export one at a time
+## [2026-10-28] update | imports/halo-ingest-2026-10-28 (superseded), entities ass1, ascl4, lc3ab, cbp, erg, p300, slfn11, stain-inventory, index
+## [2026-10-28] clear | 12 Aug 2026 HALO archives (byte-identical to Data/raw/) moved from Data/incoming/ to _to_delete/ for deletion
+## [2026-10-28] ingest | re-exports ASS1, ASCL4, CBP, LC3AB, SLFN11 into Data/raw/ (per-core reconciled)
+## [2026-10-28] hold | re-exports p300, ERG in Data/incoming/ (control-core placeholder row), pending decision
+## [2026-10-28] create | imports/halo-reexport-2026-10-28; update entities, stain-inventory, index
+## [2026-10-28] ingest | re-exports p300, ERG into Data/raw/ (control-core placeholder row noted), Bora's decision
+## [2026-10-28] update | imports/halo-reexport-2026-10-28, entities p300, erg, stain-inventory, index
+## [2026-10-28] share | 7 summary CSVs (ASS1, ASCL4, CBP, ERG, LC3AB, p300, SLFN11) copied to Ines results folder on V:, noted in imports/halo-reexport-2026-10-28
+## [2026-10-28] share | 7 object-data CSVs copied to Ines results folder on V: (ObjectData subfolders), noted in imports/halo-reexport-2026-10-28
+## [2026-10-29] ingest | BOK, SLC7A11 into Data/raw/ (per-core reconciled)
+## [2026-10-29] create | imports/halo-ingest-2026-10-29, entities bok, slc7a11; update stain-inventory, index
+## [2026-10-29] share | BOK, SLC7A11 summary and object-data CSVs copied to Ines results folder on V:, noted in imports/halo-ingest-2026-10-29

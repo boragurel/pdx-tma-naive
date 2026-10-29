@@ -1,33 +1,42 @@
 # Stain Inventory
 
 Status: active
-Last updated: 2026-10-22
+Last updated: 2026-10-29
 
 Master list of all IHC markers analysed on the [[pdx-tma]]. Updated by the
 [[tma-halo-ingest]] workflow as new exports are processed.
 
-## Ingested markers (34 stains, 35 datasets)
+## Ingested markers (43 stains, 44 datasets)
+
+See below for slides scanned but not yet analysed.
 
 | Marker | Data path | Rows | Ingested | Notes |
 |--------|-----------|------|----------|-------|
 | AR NTD | `Data/raw/AR NTD/` | 98 | 2026-08-05 | Re-exported, clean |
 | ASCL1 | `Data/raw/ASCL1/` | 98 | 2026-08-05 | Re-exported, clean |
+| ASCL4 | `Data/raw/ASCL4/` | 98 | 2026-10-28 | [[halo-reexport-2026-10-28]] |
+| ASS1 | `Data/raw/ASS1/` | 98 | 2026-10-28 | [[halo-reexport-2026-10-28]] |
+| CBP | `Data/raw/CBP/` | 98 | 2026-10-28 | [[halo-reexport-2026-10-28]] |
 | B7H3 | `Data/raw/B7H3/` | 96 | 2026-08-05 | |
 | BAK | `Data/raw/BAK/` | 93 | 2026-08-05 | |
 | BANF1 | `Data/raw/BANF1/` | 95 | 2026-08-05 | |
 | BIM | `Data/raw/BIM/` | 98 | 2026-08-05 | |
+| BOK | `Data/raw/BOK/` | 98 | 2026-10-29 | [[halo-ingest-2026-10-29]] |
 | CD56 | `Data/raw/CD56/` | 93 | 2026-08-05 | Re-exported, clean |
 | Chromogranin | `Data/raw/Chromogranin/` | 97 | 2026-08-05 | Re-exported, clean |
 | CK5 | `Data/raw/CK5/` | 95 | 2026-08-05 | Re-exported, clean |
 | CK8-18 | `Data/raw/CK8-18/` | 95 | 2026-08-05 | Re-exported, clean |
+| ERG | `Data/raw/ERG/` | 98 | 2026-10-28 | Control core Mouse prostate - 1: placeholder row; [[halo-reexport-2026-10-28]] |
 | IRF3 | `Data/raw/IRF3/` | 96 | 2026-08-05 | |
 | Ki67 | `Data/raw/Ki67/` | 97 | 2026-08-05 | Re-exported, clean |
+| LC3A/B | `Data/raw/LC3AB/` | 98 | 2026-10-28 | [[halo-reexport-2026-10-28]] |
 | Lamin_AC | `Data/raw/Lamin_AC/` | 91 | 2026-08-05 | |
 | Lamin_B1 | `Data/raw/Lamin_B1/` | 92 | 2026-08-05 | |
 | LAP1 | `Data/raw/LAP1/` | 89 | 2026-08-05 | |
 | MALT1 | `Data/raw/MALT1/` | 92 | 2026-08-05 | |
 | MCL1 | `Data/raw/MCL1/` | 91 | 2026-08-05 | |
 | MYC | `Data/raw/MYC/` | 94 | 2026-08-05 | |
+| p300 | `Data/raw/p300/` | 98 | 2026-10-28 | Control core Mouse prostate - 1: placeholder row; [[halo-reexport-2026-10-28]] |
 | p53 | `Data/raw/p53/` | 98 | 2026-08-05 | Re-exported, clean |
 | pERK | `Data/raw/pERK/` | 93 | 2026-08-05 | |
 | Periostin | `Data/raw/Periostin/` | 98 | 2026-08-05 | Copied from Periostin project |
@@ -37,6 +46,8 @@ Master list of all IHC markers analysed on the [[pdx-tma]]. Updated by the
 | PTEN | `Data/raw/PTEN/` | 96 | 2026-08-05 | |
 | RB1 | `Data/raw/RB1/` | 98 | 2026-08-05 | Re-exported, clean |
 | RPA | `Data/raw/RPA/` | 96 | 2026-08-05 | |
+| SLC7A11 | `Data/raw/SLC7A11/` | 98 | 2026-10-29 | [[halo-ingest-2026-10-29]] |
+| SLFN11 | `Data/raw/SLFN11/` | 98 | 2026-10-28 | [[halo-reexport-2026-10-28]] |
 | SNAIL | `Data/raw/SNAIL/` | 93 | 2026-08-05 | |
 | SOX2 | `Data/raw/SOX2/` | 95 | 2026-08-05 | Re-exported, clean |
 | STEAP1 | `Data/raw/STEAP1/` | 98 | 2026-10-22 | IF, whole-cell run; see [[steap1]] |
@@ -45,6 +56,14 @@ Master list of all IHC markers analysed on the [[pdx-tma]]. Updated by the
 | STING_E9 | `Data/raw/STING_E9/` | 93 | 2026-08-05 | |
 | Synaptophysin | `Data/raw/Synaptophysin/` | 97 | 2026-08-05 | Re-exported, clean |
 | YAP1 | `Data/raw/YAP1/` | 93 | 2026-08-05 | |
+
+## Slides local, not yet ingested (1)
+
+| Marker | Slide | Scanned / announced | Notes |
+|---|---|---|---|
+| pFAK | `Images/All matched PDXs TMA 1-50 1 hour incubation ER2 pFAK.vsi` | 30 Jul 2026 | Analysed 19 Aug, export not filed here |
+
+On RDS, not copied: STEAP1 IF scans. See [[tma-slides-2026-10-22]].
 
 Row count is from the summary CSV (one row per TMA core; TMA has 98 cores total). Fewer
 than 98 means some cores were excluded or failed QC in HALO.
